@@ -1,6 +1,6 @@
 #!/bin/bash
 curl -X POST \
-  http://"${consul_host}" \
+   ${consul_host} \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache' \
   -d '{
