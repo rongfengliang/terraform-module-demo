@@ -6,6 +6,6 @@ variable  "username" {
 
 variable  "consul_host" {
     type = "string"
-    description = "this is user default name"
+    description = "consul host "
     default = "http://localhost:8500"
 }
