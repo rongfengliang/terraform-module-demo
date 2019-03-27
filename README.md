@@ -57,7 +57,7 @@ like below
 ```code
 #!/bin/bash
 curl -X POST \
-  http://"http://127.0.0.1:8500" \
+   http://127.0.0.1:8500 \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache' \
   -d '{
