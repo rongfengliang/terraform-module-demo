@@ -7,7 +7,11 @@
 * content
 
 ```code
-
+├── README.md
+├── init.tpl
+├── main.tf
+├── outputs.tf
+└── variables.tf
 ```
 
 ## how to use
